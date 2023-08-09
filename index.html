@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>GIMS</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--24 min icon-->
+</head>
+<body>  
+ <section class="header">
+ <nav>
+ <a href="index.html"><img src="gims6edited.jpg" width="109px" height="115.5px"></a>
+ <div class="nav-links" id="navLinks">
+<i class="fa fa-times" onclick="hideMenu()"></i>
+
+ <ul>
+ <li><a href="index.html">HOME</a></li>
+  <li><a href="about.html">ABOUT</a></li>
+ <li><a href="course.html">COURSE</a></li>
+ <li><a href="contact.html">CONTACT</a></li>
+</ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+
+ </nav> 
+ <div class="text-box">
+ <h1>Gohar Institute Of Medical Sciences</h1>
+ <p>Paramedical courses are job oriented and present ample employment opportunities. These courses are quite training specific and train the students for real life medical situations. The significance of paramedical courses has been realised by the increasing need for skilled paramedics in the medical field, without paramedics the medical field would be crippled</p>
+ 
+ <a href="contact.html" class="hero-btn">Visit Us To Know More<a/>
+ </div>
+ 
+ </section>
+ 
+ <!-- course-->
+ <section class="course">
+ <h1>Courses We Offer</h1>
+ <p>Gohar Institute Of Medical Sciences offers a wide range of para-medical/diploma programs.</p>
+ 
+ <div class="row"><!--if i am not wrong 30 min-->
+ <div class="course-col">
+ <h3>Health Technology (2 Years/ 4 Semesters)</h3>
+<p>
+Eligibility
+Matric with Science ( Biology ) 50% Marks
+</p></div>
+<div class="course-col">
+<h3>Dental Technology (2 Years/ 4 Semesters)</h3>
+<p>Eligibility:
+Matric with Science ( Biology ) 50% Marks</p>
+</div>
+<div class="course-col">
+<h3>Pharmacy Technology (2 Years/ 4 Semesters)</h3>
+<p>Eligibility:
+Matric with Science ( Biology ) 50% Marks</p>
+</div>
+</div>
+<div class="row">
+<div class="course-col">
+<h3>Surgical Technology (2 Years/ 4 Semesters)</h3> 
+<p>Eligibility:
+Matric with Science ( Biology ) 50% Marks</p>
+</div>
+ <div class="course-col">
+ <h3>Pathology Technology (2 Years/ 4 Semesters)</h3>
+ <p>Eligibility:
+Matric with Science ( Biology ) 50% Marks</p>
+</div>
+<div class="course-col">
+<h3>Anaesthesia Technology (2 Years/ 4 Semesters)</h3>
+<p>Eligibility:
+Matric with Science ( Biology ) 50% Marks</p>
+</div>
+</div>
+</section>
+<!--campus-->
+<section class="campus">
+<h1>Our Campus</h1>
+<p>Gohar Institute of Medical Sciences,Havellian </p>
+<div class="row">
+<div class="campus-col">
+<img src="gims14.jpg"><!--42:27-->
+<img src="gims17.jpg">
+<div class="layer">
+<!--45:30-->
+<h3>GIMS</h3>
+</div>
+</div>
+<div class="campus-col">
+<img src="ourcampus1.jpg" width="2000px" height="400px">
+<div class="layer">
+<h3>GIMS</h3>
+</div></div>
+<div class="campus-col">
+<img src="gims16.jpg">
+<img src="gims18.jpg">
+<div class="layer">
+<h3>GIMS</h3>
+</div>
+</div>
+</div>
+</section>
+<!--facilities-->
+<section class="facilities">
+<h1>Our Facilities</h1>
+<p>Gohar Institute Of Medical Sciences provides a wide range of facilities to it's students to enhace their skills to the best of their abilities.</p>
+<div class="row">
+<div class="facilities-col">
+<img src="gimslibrary.jpg">
+<h3>Our Library</h3><!--51:16-->
+<p>College library stimulates the students to obtain, evaluate and recognize knowledge and to familiarize themselves with the trends of knowledge for further education and learning new disciplines.</p>
+</div>
+<div class="facilities-col">
+<img src="gimscomputerlab.jpg">
+<h3>Our Computer Lab</h3>
+<p>Students, faculty and staff have access to the computer labs, which provide the tools and technologies to produce websites, edit papers, complete class assignments, communicate via email, conduct data analyses and access library resources.</p>
+</div>
+<div class="facilities-col">
+<img src="gimslab.jpg">
+<h3>Our Labortory</h3>
+<p> Laboratory experiences provide opportunities for students to interact directly with the material world (or with data drawn from the material world), using the tools, data collection techniques, models, and theories of science.</p>
+</div>
+</div>
+</section>
+<!--54:20  testimonials section-->
+<!--testimonial   what our students say    section has been removed-->
+<!--call to action-->
+<section class="cta">
+<h1>ENROLL FOR OUR VARIOUS COURSES</h1><!--60:02-->
+<a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!--footer-->
+<section class="footer">
+<h4>About Us</h4>
+<p>We are a dynamic institute that provides high quality education to our students.
+<br>
+We continue to invest in our staff, students and facilities as part of our goal.<br> Our ethos is one of support, trust integrity and respect while valuing diversity.
+ </p>
+<div class="icons">
+<i class="fa fa-facebook"></i><!-- 60:09     twitter, instagram, linkedin not added-->
+<!--60:09:57     made with -- by author  not included in this website-->
+
+
+</div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- JS for toggle menu -->
+<script>
+var navLinks =document.getElementById("navLinks");
+function showMenu(){
+navLinks.style.right="0";
+}
+function hideMenu(){
+navLinks.style.right="-200px";
+}
+
+</script>
+</body>
+</html>
